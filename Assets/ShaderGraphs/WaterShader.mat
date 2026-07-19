@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f501de87217a5784aa6e76565682e2a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _USE_VERTEX_WAVES
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -51,6 +52,7 @@ Material:
     - _QueueOffset: 0
     - _Transparency: 0.8
     - _USE_DEPTH_FOAM: 0
+    - _USE_VERTEX_WAVES: 1
     - _Vertex_Wave_Speed: 2
     - _WaveHeight: 0.1
     m_Colors:
