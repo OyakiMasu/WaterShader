@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f501de87217a5784aa6e76565682e2a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _USE_VERTEX_WAVES
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -25,8 +24,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Caustics:
+        m_Texture: {fileID: 2800000, guid: c6be1b99eaeefb14fad465ad19cbdd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal_Map:
         m_Texture: {fileID: 2800000, guid: e4cfad8ce4a23dc4b972c0b88e8474ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2b3f208d5a92414cbd338aebe1357957_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c6be1b99eaeefb14fad465ad19cbdd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_eb26013dc08a4d669fa343e6f23b82d3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c6be1b99eaeefb14fad465ad19cbdd5c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -43,24 +54,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth_Distance: 0.05
-    - _Glossiness: 5
-    - _Normal_Scale: 5
+    - _Caustic_Speed: 0.05
+    - _Caustic_Strength: 0.5
+    - _Depth_Distance: 2
+    - _Glossiness: 10
+    - _Normal_Scale: 3
     - _Normal_Scale_2: 3
     - _Off: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Transparency: 0.8
+    - _Transparency: 0.59
+    - _USE_CAUSTICS: 0
     - _USE_DEPTH_FOAM: 0
-    - _USE_VERTEX_WAVES: 1
-    - _Vertex_Wave_Speed: 2
-    - _WaveHeight: 0.1
+    - _USE_VERTEX_WAVES: 0
+    - _Vertex_Wave_Speed: 0.24
+    - _WaveHeight: 0.125
     m_Colors:
-    - _DeepWaterColor: {r: 0.082311876, g: 0.25627494, b: 0.735849, a: 1}
-    - _FoamColor: {r: 0.21085644, g: 0.63342315, b: 0.60774237, a: 0.9411765}
-    - _WaterColor: {r: 0.17464629, g: 0.9536613, b: 0.9892183, a: 1}
-    - _Wave_Speed_1: {r: 0.1, g: 0.05, b: 0, a: 0}
-    - _Wave_Speed_2: {r: -0.05, g: 0.1, b: 0, a: 0}
+    - _DeepWaterColor: {r: 0.089090385, g: 0.60048527, b: 0.88140154, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor: {r: 0.084905505, g: 0.9602133, b: 1, a: 1}
+    - _Wave_Speed_1: {r: 0.01, g: 0.05, b: 0, a: 0}
+    - _Wave_Speed_2: {r: -0.05, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2472214144777940438
