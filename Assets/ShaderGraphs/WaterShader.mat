@@ -11,7 +11,10 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f501de87217a5784aa6e76565682e2a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _USE_CAUSTICS
+  - _USE_DEPTH_FOAM
+  - _USE_VERTEX_WAVES
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -56,7 +59,7 @@ Material:
     m_Floats:
     - _Caustic_Speed: 0.05
     - _Caustic_Strength: 0.5
-    - _Depth_Distance: 2
+    - _Depth_Distance: 3
     - _Glossiness: 10
     - _Normal_Scale: 3
     - _Normal_Scale_2: 3
@@ -64,15 +67,15 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Transparency: 0.59
-    - _USE_CAUSTICS: 0
-    - _USE_DEPTH_FOAM: 0
-    - _USE_VERTEX_WAVES: 0
+    - _USE_CAUSTICS: 1
+    - _USE_DEPTH_FOAM: 1
+    - _USE_VERTEX_WAVES: 1
     - _Vertex_Wave_Speed: 0.24
     - _WaveHeight: 0.125
     m_Colors:
-    - _DeepWaterColor: {r: 0.089090385, g: 0.60048527, b: 0.88140154, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WaterColor: {r: 0.084905505, g: 0.9602133, b: 1, a: 1}
+    - _DeepWaterColor: {r: 0.11206315, g: 0.5511287, b: 0.9137466, a: 1}
+    - _FoamColor: {r: 0.8234501, g: 0.9772657, b: 1, a: 1}
+    - _WaterColor: {r: 0, g: 1, b: 0.9754944, a: 1}
     - _Wave_Speed_1: {r: 0.01, g: 0.05, b: 0, a: 0}
     - _Wave_Speed_2: {r: -0.05, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
