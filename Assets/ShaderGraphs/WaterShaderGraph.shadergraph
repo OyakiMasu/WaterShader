@@ -4230,7 +4230,7 @@
     "m_ObjectId": "44d785cfd2b04b7086f15188fa4d03a0",
     "m_Title": "Dual-Sample Panning Caustics",
     "m_Position": {
-        "x": -168.5712890625,
+        "x": -168.571533203125,
         "y": 2924.0
     }
 }
@@ -5838,7 +5838,7 @@
     "m_ObjectId": "7b21a31330d04cec948daf948890e172",
     "m_Title": "Depth Calculation & Shoreline Foam",
     "m_Position": {
-        "x": 197.1429443359375,
+        "x": 197.142822265625,
         "y": 1751.9998779296875
     }
 }
@@ -8655,7 +8655,7 @@
     "m_Title": "Custom Blinn-Phong Specular (Lighting)",
     "m_Position": {
         "x": -674.2857666015625,
-        "y": 1221.7142333984375
+        "y": 1221.71435546875
     }
 }
 
@@ -8966,8 +8966,8 @@
     "m_ObjectId": "dcb772b924d3485781542c50fd99c95f",
     "m_Title": "Use Vertex Waves",
     "m_Position": {
-        "x": -451.4285888671875,
-        "y": 97.71429443359375
+        "x": -451.42864990234377,
+        "y": 97.71430969238281
     }
 }
 
@@ -10509,7 +10509,7 @@
     "m_ObjectId": "fc9aa8e3167f4ba0990a79cb342c7088",
     "m_Title": "Panning Normals & Surface Detail",
     "m_Position": {
-        "x": -2750.28564453125,
+        "x": -2750.285888671875,
         "y": 586.2857055664063
     }
 }
