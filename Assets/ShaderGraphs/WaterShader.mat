@@ -11,10 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: f501de87217a5784aa6e76565682e2a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _USE_CAUSTICS
-  - _USE_DEPTH_FOAM
-  - _USE_VERTEX_WAVES
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -58,7 +55,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Caustic_Speed: 0.05
-    - _Caustic_Strength: 0.5
+    - _Caustic_Strength: 0.75
     - _Depth_Distance: 3
     - _Glossiness: 10
     - _Normal_Scale: 3
@@ -67,9 +64,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Transparency: 0.59
-    - _USE_CAUSTICS: 1
-    - _USE_DEPTH_FOAM: 1
-    - _USE_VERTEX_WAVES: 1
+    - _USE_CAUSTICS: 0
+    - _USE_DEPTH_FOAM: 0
+    - _USE_VERTEX_WAVES: 0
     - _Vertex_Wave_Speed: 0.24
     - _WaveHeight: 0.125
     m_Colors:
